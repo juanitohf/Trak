@@ -1,0 +1,493 @@
+
+
+@font-face
+{
+font-family: Cinzel;
+src: url(../fonts/cinzel.woff);
+}
+
+
+@font-face
+{
+font-family: Arapey;
+src: url(../fonts/arapey.woff);
+}
+
+@font-face
+{
+font-family: nixieone;
+src: url(../fonts/nixieone.woff);
+}
+@font-face
+{
+font-family: Gilda;
+src: url(../fonts/Gilda.woff);
+}
+
+@font-face
+{
+font-family: Josefinslab;
+src: url(../fonts/Josefinslab.woff);
+}
+@font-face
+{
+font-family: Rokkitt;
+src: url(../fonts/Rokkitt.woff);
+}
+
+@font-face
+{
+font-family: Rokkitt;
+src: url(../fonts/Pompiere.woff);
+}
+
+
+
+body
+{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	background-color: #f7f7f7;
+	z-index:0;
+	
+}
+
+header{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	width: 95%;
+	min-width: 900px;
+	height: 40px;
+	background-color: #9B1D33;
+	border-radius: 25px;
+	color: white;
+	font-weight:bold;
+	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	z-index:1;
+}
+
+header ul{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	height: 40px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+header ul li{
+		display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	-webkit-box-flex:1;
+	cursor: pointer;
+}
+
+
+header a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+header li:hover
+{
+	text-decoration: underline;	
+}
+header a:hover
+{
+	text-decoration: underline;
+}
+
+#loginBox
+{
+	position:absolute;
+	top: 45px;
+	left: 100px;
+	width: 320px;
+	height: 0px;
+	background-color: #9B1D33;
+	transition:height 500ms;
+	-webkit-transition: height 500ms;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#formLogin
+{
+	display:none;
+}
+#formLogin input
+{
+	font-family: 'Rokkitt', serif;
+	font-size: 14px;
+	color: #F60;
+	margin-left:5px;
+	margin-top:5px
+}
+
+
+#formLogin button
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+}
+section
+{
+	margin-top: 30px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	width: 100%;
+	min-height: 500px;
+	
+}
+
+aside
+{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-align: center;
+	-webkit-box-flex:0;
+	width: 300px;
+	padding-top: 20px;
+	
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+aside img
+{ 
+	padding:0;
+	margin: 0px;
+	width: 200px;
+}
+
+#menuPrincipal
+{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0;
+	margin-top: 0;
+	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+
+#menuPrincipal li
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:700;
+	font-size: 14px;
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	width: 265px;
+	height: 50px;
+	background-color: #9B1D33;
+	
+	color: white;
+	border: #9F1200 outset 1px;
+	
+}
+
+
+#menuPrincipal li:hover
+{
+	background-color:white;
+	color: #111940;
+	border: #333 inset 1px;
+	cursor: pointer;
+	
+}
+article
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	-webkit-box-flex:1;
+	
+	
+	color: white;
+	margin-right: 20px;
+	margin-top:20px;
+	min-height: 540px;
+	
+}
+#leftArticle img{
+	position: absolute;
+	top: 150px;
+	left:340px;
+	
+}
+
+footer
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin-left:20px;
+	
+	display:-webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: end;
+	margin-top: 10px;
+	background-image:url(../images/fondoFooter.png);
+	background-size:contain;
+	background-repeat:repeat-x;
+	height: 50px;
+	width: 95%;
+	border-radius: 5px;
+	color: white;
+}
+footer div
+{
+	-webkit-box-flex: 1;
+}
+
+#leftFooter
+{
+	padding-left: 10px;
+}
+#rightFooter
+{
+	text-align:end;
+	
+}
+
+footer img
+{
+	width:90px;
+	height: 45px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+
+
+
+footer p
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	margin:0px;
+	padding-right: 20px;	
+}
+
+
+
+#spanFooter{
+	color: #900;
+	
+	
+}
+
+#leftArticleList
+{
+	background-color: #white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	text-align:center;
+	width: 46%;
+	border: 1px inset gray;
+	min-height: 250px;
+	color: white;
+	padding: 20px;
+}
+
+#leftArticleList button
+{
+	width: 50px;	
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 10px;
+}
+
+#leftArticle
+{
+	background-color: #white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	text-align:center;
+	width: 46%;
+	
+	min-height: 250px;
+	color: white;
+	
+}
+
+
+#leftArticle input
+{
+	text-align:center;
+	margin-left: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	color: #C60;
+	width: 300px;	
+}
+
+#leftArticle button
+{
+
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	color: #C60;
+	width: 200px;
+	margin-top: 20px;	
+}
+#rightArticle
+{
+	text-align:center;
+	width: 46%;
+	
+	min-height: 250px;
+	color: white;
+}
+
+
+
+#register
+{
+	width: 100px;
+	
+}
+
+#contReg
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+#headerTbl
+{
+	background-color:#FFF;
+	color: black;
+}
+
+#logoutBox
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	padding-left:10px;
+	padding-right: 10px;
+	height: 30px;
+	width: 200px;
+	
+}
+#logoutP
+{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 10px;
+	color: #FFC;
+}
+
+#logoutBox button
+{
+
+	height: 25px;
+	width: 45px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+}
+#logout1
+{
+	display: none;	
+}
+
+#logout2
+{
+	display: none;	
+}
+
+@media only screen and (max-width: 1000px) {
+	
+article{
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	
+}
+
+
+
+#leftArticle
+{
+	width: 95%;
+}
+
+#rightArticle
+{
+		width: 95%;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+	
+	
+section{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+	
+aside{
+	
+	background-image: none;
+	width: 100%;
+		
+}
+#menuPrincipal{
+	
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	width: 100%;
+	
+}
+
+#menuPrincipal li{
+	
+	-webkit-box-flex:1;
+}
+
+
+footer
+{
+	display: none;
+}
+	
+	
+	
+}
+
+
+#forgetPass{
+	position:relative;
+	top: -5px;
+	font-size: 10px;
+	color: #FFF;
+	margin-left: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+	
+	
+#resetH1{
+	
+	color: #800;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+		
+		
+	}

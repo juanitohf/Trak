@@ -1,0 +1,1047 @@
+
+
+@font-face
+{
+font-family: Cinzel;
+src: url(../fonts/cinzel.woff);
+}
+
+
+@font-face
+{
+font-family: Arapey;
+src: url(../fonts/arapey.woff);
+}
+
+@font-face
+{
+font-family: nixieone;
+src: url(../fonts/nixieone.woff);
+}
+@font-face
+{
+font-family: Gilda;
+src: url(../fonts/Gilda.woff);
+}
+
+@font-face
+{
+font-family: Josefinslab;
+src: url(../fonts/Josefinslab.woff);
+}
+@font-face
+{
+font-family: Rokkitt;
+src: url(../fonts/Rokkitt.woff);
+}
+
+@font-face
+{
+font-family: Rokkitt;
+src: url(../fonts/Pompiere.woff);
+}
+
+
+
+p, h1, h2,h3, form{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	background-color: #f7f7f7;
+	z-index:0;
+	
+}
+
+header{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	width: 95%;
+	min-width: 900px;
+	height: 40px;
+	background-color: #9B1D33;
+	border-radius: 25px;
+	color: white;
+	font-weight:bold;
+	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	z-index:1;
+}
+
+header ul{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	height: 40px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+header ul li{
+		display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	-webkit-box-flex:1;
+	cursor: pointer;
+}
+
+
+header a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+header li:hover
+{
+	text-decoration: underline;	
+}
+header a:hover
+{
+	text-decoration: underline;
+}
+
+#loginBox
+{
+	position:absolute;
+	top: 45px;
+	left: 100px;
+	width: 320px;
+	height: 0px;
+	background-color: #9B1D33;
+	transition:height 500ms;
+	-webkit-transition: height 500ms;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#formLogin
+{
+	display:none;
+}
+#formLogin input
+{
+	font-family: 'Rokkitt', serif;
+	font-size: 14px;
+	color: #F60;
+	margin-left:5px;
+	margin-top:5px;
+}
+
+
+#formLogin button
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+}
+section
+{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+	width: 100%;
+	min-height: 400px;
+	z-index:1;
+	
+	
+}
+
+aside
+{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	
+	-webkit-box-flex:0;
+	width: 250px;
+	padding-top: 20px;
+		margin-right: 50px;
+	background-repeat:no-repeat;
+	background-size:contain;
+	z-index:1;
+
+}
+
+aside img
+{ 
+	text-align: center;
+	padding:0;
+	margin: 0px;
+	width: 200px;
+}
+
+#line1Aside{
+	width: 265px;
+	text-align: center;
+}
+#menuPrincipal
+{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0;
+	margin-top: 0;
+		-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+
+#menuPrincipal li
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	height: 50px;
+	background-color: #9B1D33;
+	
+	color: white;
+	border: #9F1200 outset 1px;
+	
+}
+
+#menuPrincipal li.selected{
+	background-color: white;
+	color:#9B1D33;
+	font-weight:bold;
+	
+	}
+
+#menuPrincipal li:hover
+{
+	background-color:white;
+	color: #111940;
+	border: #333 inset 1px;
+	cursor: pointer;
+	
+}
+
+
+
+nav{
+	
+ 	margin-top: 30px;
+	height: 42px;
+	width: 95%;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	
+}
+
+nav ul{
+	border-bottom: 1px solid #333;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: end;
+	-webkit-box-align: end;
+	list-style: none;
+	padding-right: 30px;
+		
+	
+	
+}
+
+nav li{
+	
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: end;
+	-webkit-box-pack: center;
+	border-top: 1px solid #111940;
+	border-left: 1px solid #111940;
+	border-right: 1px solid #111940;
+	border-bottom: 1px solid #111940;
+	
+	position: relative;
+	bottom: -1px;
+	
+	text-align:center;
+	height: 25px;
+	width: 100px;
+	margin-left: 1px;
+	margin-right: 1px;
+	background-color: #9B1D33;
+	color: white;
+	
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	cursor:pointer;
+
+	 
+	
+}
+
+
+nav li:hover{
+	
+	background-color: #222;
+	color: #FFF;
+	border-top: 1px solid #111940;
+	border-left: 1px solid #111940;
+	border-right: 1px solid #111940;
+	border-bottom: 1px solid #111940;
+	
+}
+
+
+
+.activeTag
+{
+	background-color: #f7f7f7;
+	color: #14471c;
+	border-top: 1px solid #111940;
+	border-left: 1px solid #111940;
+	border-right: 1px solid #111940;
+	border-bottom: 1px solid #f7f7f7;
+	
+	
+
+}
+
+
+#articleList
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	position: relative;
+	top: -26px;
+	left: 0px;
+	background-image: url(../images/forestLogo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:center;
+	
+	
+	width:90%;
+	min-height: 500px;
+	margin-right: 10px;
+	z-index: 1;
+
+}
+
+
+
+#articleInsert
+{
+	display: none;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	position: relative;
+	top: -26px;
+	left: 0px;
+	background-image: url(../images/forestLogo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:center;
+	
+	
+	width:90%;
+	min-height: 500px;
+	margin-right: 10px;
+	z-index: 1;
+}
+
+
+#articleCategories
+{
+	display: none;
+	position: relative;
+	top: -26px;
+	left: 0px;
+	
+	width: 74%;
+	min-height: 500px;
+	margin-right: 10px;
+	z-index: 1;
+}
+
+
+#articleLessons{
+	
+	display: none;
+	position: relative;
+	top: -26px;
+	left: 0px;
+	
+	width: 74%;
+	min-height: 500px;
+	margin-right: 10px;
+	z-index: 1;
+}
+
+#articleReport{
+	
+	display: none;
+	position: relative;
+	top: -26px;
+	left: 0px;
+	
+	width: 74%;
+	min-height: 500px;
+	margin-right: 10px;
+	z-index: 1;
+}
+
+
+.insertTitle{
+	
+	text-align: center;
+
+ font-family: 'Simonetta', cursive;
+ font-size: 16px;
+ color:#111940;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+}
+
+
+
+.insertTitle2{
+	
+	text-align: center;
+
+ font-family: 'Simonetta', cursive;
+ font-size: 22px;
+ color:#900;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+}
+
+
+.insertTitle3{
+	
+	text-align: center;
+min-width: 310px;
+max-width: 450px;
+width: 100%;
+margin-left: 10px;
+ font-family: 'Simonetta', cursive;
+ font-size: 22px;
+ color:#900;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+ 
+}
+
+
+
+
+
+
+
+
+
+
+footer
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin-left:20px;
+	
+	
+	display:-webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: end;
+	margin-top: 10px;
+	
+	background-image:url(../images/fondoFooter.png);
+	background-size:contain;
+	background-repeat:repeat-x;
+	
+	height: 50px;
+	width: 95%;
+	border-radius: 5px;
+	color: white;
+	z-index: 1;
+}
+footer div
+{
+	-webkit-box-flex: 1;
+}
+
+#leftFooter
+{
+	padding-left: 10px;
+}
+#rightFooter
+{
+	text-align:end;
+	
+}
+
+footer img
+{
+	width:90px;
+	height: 45px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+
+
+
+footer p
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	margin:0px;
+	padding-right: 20px;	
+}
+
+
+
+#spanFooter{
+	color: #900;
+	
+	
+}
+
+
+
+#headerTbl
+{
+	background-color:#FFF;
+	color: black;
+}
+
+#logoutBox
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	padding-left:10px;
+	padding-right: 10px;
+	height: 30px;
+	width: 200px;
+	
+}
+#logoutP
+{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 10px;
+	color: #FFC;
+}
+
+#logoutBox button
+{
+
+	height: 25px;
+	width: 45px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+}
+
+#logout1
+{
+	display: none;	
+}
+
+#logout2
+{
+	display: none;	
+}
+
+
+
+#leftArticle{
+	margin-top: 10px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-align: center;
+	-webkit-box-pack: start;
+	
+	
+	width: 700px;
+	
+}
+
+#rightArticle{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;	
+	margin-left: 10px;
+	display: -webkit-box;
+	margin-top: 15px;
+	
+	-webkit-box-flex: 1;
+}
+
+#rightArticle2{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;	
+	margin-left: 10px;
+	display: -webkit-box;
+	margin-top: 15px;
+	-webkit-box-flex: 1;
+}
+
+#boxInfoUser{
+	
+	max-width: 450px;
+	min-width:310px;
+	width: 100%;
+	height: 420px;
+	border: 1px inset white;
+	background-color: #FFF;
+	opacity: 0.9;
+	margin-left: 10px;
+	
+}
+
+#boxInfoUser2{
+	
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: start;
+	-webkit-box-orient: vertical;
+	max-width: 450px;
+	min-width:310px;
+	width: 100%;
+	height: 420px;
+	border: 1px inset white;
+	background-color: #FFF;
+	opacity: 0.9;
+	margin-left: 10px;
+
+	
+	
+}
+
+
+#boxInfoUser2 ul{
+	list-style: none;
+	width: 70%;
+	background-color: #9B1D33;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 10px;
+	
+}
+
+#boxInfoUser2 ul li{
+	
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	border: 1px inset white;
+	height: 50px;
+	font-size: 18px;
+	cursor: pointer;
+	-webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	opacity: 1;
+}
+
+#boxInfoUser2 ul li:hover{
+	
+	background-color: #FFF;
+	color: #9B1D33;
+}
+
+#lineHeaderContainer{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	width: 100%;
+}
+
+
+#NameBt{
+	width: 175px;
+	padding: 1px;
+	font-size:18px;
+	font-size: 14px;
+	padding: 2px;
+	font-size: 16px;
+	color: #900;
+	}
+#TempleBt{
+		width: 100px;
+	padding: 1px;
+	font-size:18px;
+	font-size: 14px;
+	padding: 2px;
+	font-size: 16px;
+	color: #900;
+	}
+#DateBt{
+	width: 80px;
+	padding: 1px;
+	font-size:18px;
+	font-size: 14px;
+	padding: 2px;
+	font-size: 16px;
+	color: #900;
+}
+#TimeStarBt{
+	width: 100px;
+	padding: 1px;
+	font-size:18px;
+	font-size: 14px;
+	padding: 2px;
+	font-size: 16px;
+	color: #900;
+}
+#TimeStudioeBt{
+	width: 140px;
+	padding: 1px;
+	font-size:18px;
+	font-size: 14px;
+	padding: 2px;
+	font-size: 16px;
+	color: #900;
+}
+#StatusBt{
+	width: 100px;
+	padding: 1px;
+	font-size:18px;
+	font-size: 14px;
+	padding: 2px;
+	font-size: 16px;
+	color: #900;
+}
+
+
+#containerDisplay{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	height: 350px;
+	width: 700px;
+	overflow:auto;
+	border-left: 1px inset white;
+	border-right: 1px inset white;
+	border-bottom: 1px inset white;
+	background-color: #FFF;
+	opacity: 0.9;
+}
+
+#containerDisplay2{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	height: 400px;
+	width: 700px;
+	overflow:auto;
+	border-left: 1px inset white;
+	border-right: 1px inset white;
+	border-bottom: 1px inset white;
+	background-color: #FFF;
+	opacity: 0.9;
+}
+
+.lineDisplay{
+	
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	border-bottom: 1px dashed gray;
+	color: #000;
+}
+
+.lineDisplay:hover{
+	
+	background-color: #FFC;
+}
+
+.NameDiv{width: 175px; display: -webkit-box; -webkit-box-pack: start;}
+.NameDiv p{
+	margin-left: 10px;
+	}
+.TempleDiv{width: 100px;  display: -webkit-box; -webkit-box-pack: center;}
+.DateDiv{width: 78px; display: -webkit-box; -webkit-box-pack: center;}
+.TimeStarDiv{width: 100px; display: -webkit-box; -webkit-box-pack: center;}
+.TimeStudioeDiv{width: 135px;display: -webkit-box; -webkit-box-pack: center;}
+.StatusDiv{width: 100px;display: -webkit-box; -webkit-box-pack: center;}
+
+#LineSliderCar{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	width: 700px;
+	margin-top: 10px;
+	
+}
+
+#labelSlide{
+	
+	margin-right: 20px;
+}
+
+
+#LineSliderCar label{
+	font-size: 20px;
+	color: #900;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+#LineSliderCar input{
+	font-size: 20px;
+	width: 300px;
+}
+
+#StatusColor0{
+	
+	color: red;
+}
+
+#StatusColor1{
+	
+	color: green;
+}
+
+#scanner{
+	
+	text-align: center;
+	
+}
+
+#lineInfo{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	height: 200px;
+	margin-top: 5px;
+	
+}
+
+#imageUserBox{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	overflow: hidden;
+	width: 150px;
+	margin-top:20px;
+	-webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	
+	
+}
+#imageUserBox img{
+	width: 150px;
+	
+}
+
+#lineInfoData{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	
+	height: 210px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.line1InfoData{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+	
+}
+
+.labelInfoData{
+	color: #900;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	font-size: 18px;
+	width: 85px;
+
+	margin-left: 0px;
+}
+.infoDataPHP{
+	font-size: 18px;
+	width: 180px;
+}
+
+
+#boxContainerSearch{
+	display:-webkit-box;
+	transition: height ease-in-out 1s;
+	width: 70%;
+	height: 0px;
+	background-color: #9B1D33;
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+#contFormName{
+	display: none;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	
+	width: 100%;
+	
+}
+
+#contFormName label{
+	
+	font-size: 24px;
+	color: #EEE;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+#contFormName input{
+	text-align:center;
+	width: 180px;
+	font-size: 24px;
+	color: #F60;
+}
+#contFormName form{
+	text-align: center;
+}
+
+
+#contFormLast{
+	display: none;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	width: 100%;
+	
+}
+
+#contFormLast label{
+	
+	font-size: 24px;
+	color: #EEE;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+#contFormLast input{
+	
+	width: 180px;
+	font-size: 24px;
+	color: #F60;
+	text-align:center;
+}
+#contFormLast form{
+	text-align: center;
+}
+
+
+
+
+
+#contFormDate{
+	display: none;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	width: 100%;
+	
+}
+
+#contFormDate label{
+	
+	font-size: 18px;
+	color: #EEE;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+#contFormDate input{
+	text-align:center;
+	width: 180px;
+	font-size: 14px;
+	color: #000;
+}
+#contFormDate form{
+	text-align: center;
+}
+
+
+#contFormDate button{
+	margin-top: 10px;
+	font-size: 16px;
+	color: #900;
+	width: 240px;
+	margin-left: 10px;
+	
+}
+.lineContFormDate{
+	margin-top: 10px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+
+.labelDate{
+	width: 60px;
+}
+#TagReport{
+	display: none;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+	
+	
+	
+	
+}
+	
+	
+#forgetPass{
+	position:relative;
+	top: -5px;
+	font-size: 10px;
+	color: #FFF;
+	margin-left: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+	

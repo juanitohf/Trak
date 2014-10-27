@@ -1,0 +1,1191 @@
+
+
+@font-face
+{
+font-family: Cinzel;
+src: url(../fonts/cinzel.woff);
+}
+
+
+@font-face
+{
+font-family: Arapey;
+src: url(../fonts/arapey.woff);
+}
+
+@font-face
+{
+font-family: nixieone;
+src: url(../fonts/nixieone.woff);
+}
+@font-face
+{
+font-family: Gilda;
+src: url(../fonts/Gilda.woff);
+}
+
+@font-face
+{
+font-family: Josefinslab;
+src: url(../fonts/Josefinslab.woff);
+}
+@font-face
+{
+font-family: Rokkitt;
+src: url(../fonts/Rokkitt.woff);
+}
+
+@font-face
+{
+font-family: Rokkitt;
+src: url(../fonts/Pompiere.woff);
+}
+
+
+
+body
+{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	background-color: #f7f7f7;
+	
+}
+
+header{
+	
+	
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	width: 95%;
+	min-width: 900px;
+	height: 40px;
+	background-color: #111940;
+	border-radius: 25px;
+	color: white;
+}
+
+header ul{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	height: 40px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+header ul li{
+	-webkit-box-flex:1;
+	cursor: pointer;
+}
+
+
+header a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+header li:hover
+{
+	text-decoration: underline;	
+}
+header a:hover
+{
+	text-decoration: underline;
+}
+
+#loginBox
+{
+	position:absolute;
+	top: 45px;
+	left: 100px;
+	width: 320px;
+	height: 0px;
+	background-color: #111940;
+	transition:height 500ms;
+	-webkit-transition: height 500ms;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#formLogin
+{
+	display:none;
+}
+#formLogin input
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #F60;
+	margin-left:5px;
+	margin-top:5px
+}
+
+
+#formLogin button
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+}
+section
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+	width: 100%;
+	min-height: 400px;
+	
+}
+
+aside
+{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	
+	-webkit-box-flex:0;
+	width: 250px;
+	padding-top: 20px;
+		margin-right: 50px;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+aside img
+{ 
+	text-align: center;
+	padding:0;
+	margin: 0px;
+	width: 200px;
+}
+
+#menuPrincipal
+{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0;
+	margin-top: 0;
+		-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+
+#menuPrincipal li
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	height: 50px;
+	background-color: #111940;
+	
+	color: white;
+	border: #088cd7 outset 1px;
+	
+}
+
+
+#menuPrincipal li:hover
+{
+	background-color:white;
+	color: #111940;
+	border: #333 inset 1px;
+	cursor: pointer;
+	
+}
+
+
+
+
+
+
+nav{
+	
+ 	margin-top: 30px;
+	height: 42px;
+	width: 95%;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	
+}
+
+nav ul{
+	border-bottom: 1px solid #333;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: end;
+	-webkit-box-align: end;
+	list-style: none;
+	padding-right: 30px;
+	
+	
+}
+
+nav li{
+	
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: end;
+	-webkit-box-pack: center;
+	border-top: 1px solid #111940;
+	border-left: 1px solid #111940;
+	border-right: 1px solid #111940;
+	border-bottom: 1px solid #111940;
+	
+	position: relative;
+	bottom: -1px;
+	
+	
+	text-align:center;
+	height: 25px;
+	width: 100px;
+	margin-left: 1px;
+	margin-right: 1px;
+	background-color: #111940;
+	color: white;
+	
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	cursor:pointer;
+	
+	
+	
+	 
+	
+}
+
+
+nav li:hover{
+	
+	background-color:  #14471c;
+	color: #FFF;
+	border-top: 1px solid #111940;
+	border-left: 1px solid #111940;
+	border-right: 1px solid #111940;
+	border-bottom: 1px solid #111940;
+	
+}
+
+
+
+.activeTag
+{
+	background-color: #f7f7f7;
+	color: #14471c;
+	border-top: 1px solid #111940;
+	border-left: 1px solid #111940;
+	border-right: 1px solid #111940;
+	border-bottom: 1px solid #f7f7f7;
+
+}
+
+
+#articleList
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	position: relative;
+	top: -26px;
+	left: 0px;
+	border-top: 1px solid #111940;
+	width: 74%;
+	min-height: 500px;
+	margin-right: 10px;
+	z-index: 1;
+	
+}
+
+
+#leftArticleList
+{
+	margin-top: 10px;	
+	min-height: 500px;
+	width: 600px;
+}
+
+
+#headerList
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+}
+
+
+#headerList button
+{
+	margin: 0;
+	padding: 2;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	cursor:pointer;
+}
+
+
+#lineList
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	font-family: 'Gilda Display', serif;
+	font-size: 14px;
+	
+	border-bottom: 1px dashed gray;
+	
+
+}
+#btDescription
+{
+	
+	width: 250px;
+}
+
+#bodyDescription
+{
+	
+	display: -webkit-box;
+	-webkit-box-align: center;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin-left: 5px;
+	width: 250px;
+}
+
+#bodyDescription img
+{
+	
+	margin-right: 10px;
+	width: 30px;	
+}
+
+#btLocation
+{
+	
+	width: 200px;
+}
+
+#bodyLocation
+{
+	
+	display: -webkit-box;
+	-webkit-box-align: center;
+	
+	width: 200px;
+}
+
+#bodyStock
+{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+
+	width: 60px;
+
+}
+#btActions
+{
+	width: 85px;
+}
+
+#bodyActions
+{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+
+	
+	width: 85px;
+}
+
+#bodyActions img
+{
+	width: 15px;
+	margin-right: 5px;
+}
+#rightArticleList
+{
+	margin-top: 10px;	
+	border-left: 1px ridge white;;
+	min-height: 500px;
+	width: 35%;
+}
+
+#containerList
+{
+	border-right: 1px inset gray;	
+	width: 100%;
+	min-height: 500px;
+	overflow:scroll;
+}
+
+#articleInsert
+{
+	display: none;
+	-webkit-box-orient: horizontal;
+	position: relative;
+	top: -26px;
+	left: 0px;
+	border-top: 1px solid #111940;
+	width: 74%;
+	min-height: 500px;
+	margin-right: 10px;
+	z-index:1;
+	
+}
+
+
+#leftArticleInsert{
+	padding: 10px;
+	min-height: 540px;
+	width: 600px;
+}
+
+
+#line1Insert
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	margin-top: 5px;
+	
+	
+}
+
+.labelInser
+{
+	width: 80px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+}
+
+.label3Inser
+{
+	width:130px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+}
+
+#line1Insert select
+{
+	width: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+}
+
+#insertCategory{
+	text-align: center;
+	list-style: none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	background-color: #14471c;
+	color: white;
+	width: 155px;
+	padding:2px;
+	cursor: pointer;
+	
+	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,1);
+}
+
+
+#insertCategory:hover{
+	
+	background-color: white;
+	color: #14471c;
+	
+}
+
+
+#insertCategory:active{
+	
+	background-color: #111940;
+	color: white;
+	
+}
+
+#line2Insert{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	margin-top: 5px;
+}
+
+
+#line2Insert input{
+	width: 95px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+}
+
+#line2Insert select
+{
+	width: 100px;
+	margin-left:10px;
+	margin-right: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+}
+
+
+.label2Inser
+{
+	width: 50px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+}
+.label4Inser
+{
+	width: 60px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+}
+
+#total
+{
+	width: 50px;
+}
+
+
+
+#line3Insert{
+	margin-top: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+
+
+
+
+#line4Insert{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+}
+
+#line4Insert input{
+	width: 130px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+#line5Insert{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+}
+
+#line5Insert input{
+	width: 130px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+#line6Insert{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+}
+
+#line6Insert input{
+	width: 105px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+#line7Insert{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin-top: 10px;
+	
+}
+
+#line7Insert input{
+	width: 350px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+#isertImage
+{
+	text-align: center;
+	list-style: none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	background-color: #14471c;
+	color: white;
+	width: 200px;
+	padding:2px;
+	cursor: pointer;
+	
+	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,1);
+}
+
+
+#isertImage:hover{
+	
+	
+	background-color: white;
+	color: #14471c;
+}
+
+
+
+
+#isertImage:active{
+	
+	background-color: #111940;
+	color: white;
+	
+}
+
+
+
+
+
+
+
+
+#isertLesson
+{
+	text-align: center;
+	list-style: none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	background-color: #14471c;
+	color: white;
+	width: 200px;
+	padding:2px;
+	cursor: pointer;
+	margin-left: 20px;
+	margin-top: 10px;
+	
+	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,1);
+}
+
+
+#isertLesson:hover{
+	
+	
+	background-color: white;
+	color: #14471c;
+}
+
+
+
+
+#isertLesson:active{
+	
+	background-color: #111940;
+	color: white;
+	
+}
+
+#contLessons{
+	
+	border: 1px inset white;
+	width: 180px;
+	height: 400px;
+	overflow: scroll;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	
+}
+#contTittle{
+	width: 200px;
+	height: 30px;
+}
+
+
+
+
+#buttonItem
+{
+	margin-top: 30px;
+	width: 550px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 25px;
+	height: 50px;
+}
+
+
+.pChecbox{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+}
+
+.divCheckbox{
+	
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin-left: 30px;
+}
+#rightArticleInsert{
+	
+	margin-top: 20px;
+	border-left: 1px ridge #14471c;
+	width: 35%;
+}
+
+
+
+
+
+
+
+
+#articleReport{
+	
+	display: none;
+	position: relative;
+	top: -26px;
+	left: 0px;
+	border-top: 1px solid #111940;
+	width: 74%;
+	min-height: 500px;
+	margin-right: 10px;
+	z-index:1;
+	
+	
+	
+	}
+
+
+.insertTitle{
+	
+	text-align: center;
+font-family: 'Gilda Display', serif;
+ font-size: 16px;
+ color:#111940;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+}
+
+#rightArticleList
+{
+	background-image:url(../images/logoManosTransparent.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	
+}
+
+
+#rightArticleList ul
+{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	list-style: none;
+	font-family: 'Gilda Display', serif;
+	font-size: 12px;
+}
+
+#rightArticleList ul li
+{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	width: 80%;
+	height: 35px;
+	background-color: #14471c;
+	color: #fff;
+	border: 1px inset white;
+	cursor: pointer;
+		
+}
+
+
+#rightArticleList ul li:hover
+{
+	background-color: white;
+	color: #14471c;
+	border: 1px outset #f7f7f7;
+	
+}
+
+
+#containerSearch
+{
+	display:none;
+	-webkit-box-pack: center;
+	transition: ease-in-out 300ms;
+	width: 200px;
+	height:0px;
+	border: 1px inset white;
+	margin-left: 45px;
+	padding-left: 3px;
+	padding-top: 10px;
+	padding-right: 10px;
+	background-color: white;
+	opacity: 0.9;
+	
+}
+
+#idClose
+{
+	position: relative;
+	top: -20px;
+	right: -199px;
+
+	border-radius: 25px;
+	color: white;
+	font-size:14px;
+	cursor: pointer;
+	
+}
+
+
+
+
+#formDescription{
+	display:none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #14471c;
+}
+
+#formDescription input{
+	width: 150px;
+	padding: 5px;
+	margin-left: 3px;
+	color: #111940;
+	font-size:14px;
+}
+
+#formCategory label
+{
+	width: 200px;
+}
+#formDescription button{
+	width: 160px;
+	padding: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.lineForm
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+}
+.labelForm
+{
+	width: 110px;
+	text-align:left;
+	margin-top: 5px;
+}
+
+#formCategory
+{
+	text-align:center;
+	width: 200px;
+	display:none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #14471c;
+
+}
+#formCategory select
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	
+	width: 70px;
+	margin-top: 5px;
+}
+#formCategory button
+{
+	
+	width: 160px;
+	padding: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+#formReference{
+	display:none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #14471c;
+}
+
+#formReference input{
+	width: 150px;
+	padding: 5px;
+	margin-left: 3px;
+	color: #111940;
+	font-size:14px;
+}
+
+#formReference label
+{
+	width: 200px;
+}
+#formReference button{
+	width: 160px;
+	padding: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+#formLesson{
+	display:none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #14471c;
+}
+
+#formLesson input{
+	width: 150px;
+	padding: 5px;
+	margin-left: 3px;
+	color: #111940;
+	font-size:14px;
+}
+
+#formLesson label
+{
+	width: 200px;
+}
+#formLesson button{
+	width: 160px;
+	padding: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+footer
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin-left:20px;
+	
+	
+	display:-webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: end;
+	margin-top: 10px;
+	background-color: #14471c;
+	height: 50px;
+	width: 95%;
+	border-radius: 5px;
+	color: white;
+}
+footer div
+{
+	-webkit-box-flex: 1;
+}
+
+#leftFooter
+{
+	padding-left: 10px;
+}
+#rightFooter
+{
+	text-align:end;
+	
+}
+
+footer img
+{
+	width:100px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+
+
+
+footer p
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	margin:0px;
+	padding-right: 20px;	
+}
+
+
+
+
+
+
+#headerTbl
+{
+	background-color:#FFF;
+	color: black;
+}
+
+#logoutBox
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	padding-left:10px;
+	padding-right: 10px;
+	height: 30px;
+	width: 200px;
+	
+}
+#logoutP
+{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 10px;
+	color: #FFC;
+}
+
+#logoutBox button
+{
+
+	height: 25px;
+	width: 45px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+}
+
+#logout1
+{
+	display: none;	
+}
+
+#logout2
+{
+	display: none;	
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+#articleItems{
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	
+}
+
+
+
+#leftArticleList
+{
+	width: 95%;
+}
+
+#rightArticle
+{
+		width: 95%;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+	
+	
+section{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+	
+aside{
+	
+	background-image: none;
+	width: 100%;
+		
+}
+#menuPrincipal{
+	
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	width: 100%;
+	
+}
+
+#menuPrincipal li{
+	
+	-webkit-box-flex:1;
+}
+
+
+footer
+{
+	display: none;
+}
+	
+	
+}
+	
+	
+#forgetPass{
+	position:relative;
+	top: -5px;
+	font-size: 10px;
+	color: #FFF;
+	margin-left: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+	
